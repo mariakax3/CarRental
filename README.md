@@ -1,7 +1,7 @@
 # MKRent - Car Rental System
 The aim of the project was to create a car rental system in the form of the console app. Application was built on purpose of Obejct-oriented programming laboratories at the university.
 ## Implementation
-The application was written in C ++ according to its paradigms such as inheritance, polymorphism and encapsulation.
+The application was written in object-oriented C++ according to its paradigms such as inheritance, polymorphism and encapsulation.
 ## Running the project
 Download the Release directory and run the .exe file just as any other application. Make sure that all necessary sources - .txt files - are in the same directory with .exe file.
 ## Functionalities
