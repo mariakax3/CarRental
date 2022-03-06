@@ -9,9 +9,9 @@ MKRent allows to manage the rental fleet by performing CRUD operations - Creade,
 ## Project tree
 1. `CarRental.cpp` - main file, logic of forming the window, draws whole menu, manages the main menu options
 2. `Car.cpp` - an abstract superclass for each type of car, contains general fields and pure virtual functions
-3. `PassengerCar.cpp`, `Truck.cpp`, `Bus.cpp` - sublasses of a Car class, each of them contains field specific for its type and definitions of functions from superclass
+3. `PassengerCar.cpp`, `Truck.cpp`, `Bus.cpp` - subclasses of a Car class, each of them contains fields specific for its type and definitions of functions from superclass
 4. `Fleet.cpp` - class stores vector of a whole fleet, allows to read and save data to .txt file so that entered data are not lost after exiting the application
 ## Class diagram
 ![MKRent UML Diagram](https://github.com/mariakax3/CarRentalSystem/blob/main/CarRental.jpg?raw=true)
 ## How the app could look
-Due to limited time presented project is a simple console app allowing for basic operations. Its functionalities could be developed by introducing version for an admin - authorised by login and password - and for a client. The client's contact information could be stored along with the rented car informations which could be enhanced by registration number.
+Due to limited time presented project is a simple console app allowing for basic operations. Its functionalities could be developed by introducing administrator version - authorised by login and password - and client version. The client's contact information could be stored along with the rented car informations which could be enhanced by registration number. Apart from that, application could have GUI, but it was not the premise of this project.
